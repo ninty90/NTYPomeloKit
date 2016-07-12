@@ -1,0 +1,14 @@
+PODS:
+  - NTYPomeloKit (0.0.1)
+
+DEPENDENCIES:
+  - NTYPomeloKit (from `../`)
+
+EXTERNAL SOURCES:
+  NTYPomeloKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NTYPomeloKit: c765e054c77a254318341d66afb1a969087a60fc
+
+COCOAPODS: 0.39.0

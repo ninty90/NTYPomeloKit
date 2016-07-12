@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		721C8105CFBBE9819A044C1B /* Pods_PomeloDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2384DD7A3EB5B46CF5A1F7A /* Pods_PomeloDemo.framework */; };
+		E02FB1621D3391DA00CD18F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FB1611D3391DA00CD18F4 /* AppDelegate.swift */; };
+		E02FB1671D3391DA00CD18F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E02FB1651D3391DA00CD18F4 /* Main.storyboard */; };
+		E02FB1691D3391DA00CD18F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E02FB1681D3391DA00CD18F4 /* Assets.xcassets */; };
+		E02FB16C1D3391DA00CD18F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E02FB16A1D3391DA00CD18F4 /* LaunchScreen.storyboard */; };
+		E02FB1A01D34C2FD00CD18F4 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FB19F1D34C2FD00CD18F4 /* HTTPClient.swift */; };
+		E02FB1A31D34C32000CD18F4 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FB1A11D34C32000CD18F4 /* Result.swift */; };
+		E02FB1A41D34C32000CD18F4 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FB1A21D34C32000CD18F4 /* JSON.swift */; };
+		E02FB1AF1D34C45D00CD18F4 /* NSURLRequest+cURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FB1AE1D34C45D00CD18F4 /* NSURLRequest+cURL.swift */; };
+		E02FB1B11D34C48900CD18F4 /* ChatAdapterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FB1B01D34C48900CD18F4 /* ChatAdapterAPI.swift */; };
+		E02FB1B31D34CB8900CD18F4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FB1B21D34CB8900CD18F4 /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5CC396C95D70ABAE98ACAFC2 /* Pods-PomeloDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomeloDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PomeloDemo/Pods-PomeloDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A2384DD7A3EB5B46CF5A1F7A /* Pods_PomeloDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PomeloDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B21DD5EA56CC8B826DA2CF00 /* Pods-PomeloDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomeloDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PomeloDemo/Pods-PomeloDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E02FB15E1D3391DA00CD18F4 /* PomeloDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomeloDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02FB1611D3391DA00CD18F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E02FB1661D3391DA00CD18F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E02FB1681D3391DA00CD18F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E02FB16B1D3391DA00CD18F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E02FB16D1D3391DA00CD18F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E02FB19F1D34C2FD00CD18F4 /* HTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		E02FB1A11D34C32000CD18F4 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		E02FB1A21D34C32000CD18F4 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		E02FB1AE1D34C45D00CD18F4 /* NSURLRequest+cURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURLRequest+cURL.swift"; sourceTree = "<group>"; };
+		E02FB1B01D34C48900CD18F4 /* ChatAdapterAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatAdapterAPI.swift; sourceTree = "<group>"; };
+		E02FB1B21D34CB8900CD18F4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E02FB15B1D3391DA00CD18F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				721C8105CFBBE9819A044C1B /* Pods_PomeloDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		022071F399696D62ACCC67D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2384DD7A3EB5B46CF5A1F7A /* Pods_PomeloDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6414787B06916C90F09A4D1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B21DD5EA56CC8B826DA2CF00 /* Pods-PomeloDemo.debug.xcconfig */,
+				5CC396C95D70ABAE98ACAFC2 /* Pods-PomeloDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E02FB1551D3391DA00CD18F4 = {
+			isa = PBXGroup;
+			children = (
+				E02FB1601D3391DA00CD18F4 /* PomeloDemo */,
+				E02FB15F1D3391DA00CD18F4 /* Products */,
+				6414787B06916C90F09A4D1A /* Pods */,
+				022071F399696D62ACCC67D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E02FB15F1D3391DA00CD18F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E02FB15E1D3391DA00CD18F4 /* PomeloDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E02FB1601D3391DA00CD18F4 /* PomeloDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E02FB1A91D34C38300CD18F4 /* AppDelegate */,
+				E02FB1A71D34C36F00CD18F4 /* Storyboards */,
+				E02FB1A81D34C37B00CD18F4 /* ViewController */,
+				E02FB1AA1D34C39100CD18F4 /* Utilities */,
+				E02FB1AD1D34C45400CD18F4 /* Extension */,
+				E02FB1A61D34C35800CD18F4 /* Supporting Files */,
+			);
+			path = PomeloDemo;
+			sourceTree = "<group>";
+		};
+		E02FB19E1D34C2F400CD18F4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E02FB19F1D34C2FD00CD18F4 /* HTTPClient.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		E02FB1A51D34C33F00CD18F4 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				E02FB1A11D34C32000CD18F4 /* Result.swift */,
+			);
+			name = Result;
+			sourceTree = "<group>";
+		};
+		E02FB1A61D34C35800CD18F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E02FB1681D3391DA00CD18F4 /* Assets.xcassets */,
+				E02FB16D1D3391DA00CD18F4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E02FB1A71D34C36F00CD18F4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E02FB1651D3391DA00CD18F4 /* Main.storyboard */,
+				E02FB16A1D3391DA00CD18F4 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		E02FB1A81D34C37B00CD18F4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E02FB1B21D34CB8900CD18F4 /* LoginViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		E02FB1A91D34C38300CD18F4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E02FB1611D3391DA00CD18F4 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		E02FB1AA1D34C39100CD18F4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E02FB1AC1D34C3DD00CD18F4 /* ChatAdapterAPI */,
+				E02FB19E1D34C2F400CD18F4 /* Network */,
+				E02FB1A51D34C33F00CD18F4 /* Result */,
+				E02FB1AB1D34C3AC00CD18F4 /* JSON */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		E02FB1AB1D34C3AC00CD18F4 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				E02FB1A21D34C32000CD18F4 /* JSON.swift */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		E02FB1AC1D34C3DD00CD18F4 /* ChatAdapterAPI */ = {
+			isa = PBXGroup;
+			children = (
+				E02FB1B01D34C48900CD18F4 /* ChatAdapterAPI.swift */,
+			);
+			name = ChatAdapterAPI;
+			sourceTree = "<group>";
+		};
+		E02FB1AD1D34C45400CD18F4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E02FB1AE1D34C45D00CD18F4 /* NSURLRequest+cURL.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E02FB15D1D3391DA00CD18F4 /* PomeloDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E02FB1701D3391DA00CD18F4 /* Build configuration list for PBXNativeTarget "PomeloDemo" */;
+			buildPhases = (
+				48F4A9C015ED7593483AA239 /* Check Pods Manifest.lock */,
+				E02FB15A1D3391DA00CD18F4 /* Sources */,
+				E02FB15B1D3391DA00CD18F4 /* Frameworks */,
+				E02FB15C1D3391DA00CD18F4 /* Resources */,
+				0F6180BEBF3E915C12523104 /* Embed Pods Frameworks */,
+				D58A9BBAB9CA277B9CAFD29E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PomeloDemo;
+			productName = PomeloDemo;
+			productReference = E02FB15E1D3391DA00CD18F4 /* PomeloDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E02FB1561D3391DA00CD18F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = little2s;
+				TargetAttributes = {
+					E02FB15D1D3391DA00CD18F4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E02FB1591D3391DA00CD18F4 /* Build configuration list for PBXProject "PomeloDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E02FB1551D3391DA00CD18F4;
+			productRefGroup = E02FB15F1D3391DA00CD18F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E02FB15D1D3391DA00CD18F4 /* PomeloDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E02FB15C1D3391DA00CD18F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02FB16C1D3391DA00CD18F4 /* LaunchScreen.storyboard in Resources */,
+				E02FB1691D3391DA00CD18F4 /* Assets.xcassets in Resources */,
+				E02FB1671D3391DA00CD18F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F6180BEBF3E915C12523104 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PomeloDemo/Pods-PomeloDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48F4A9C015ED7593483AA239 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D58A9BBAB9CA277B9CAFD29E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PomeloDemo/Pods-PomeloDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E02FB15A1D3391DA00CD18F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02FB1B11D34C48900CD18F4 /* ChatAdapterAPI.swift in Sources */,
+				E02FB1A41D34C32000CD18F4 /* JSON.swift in Sources */,
+				E02FB1AF1D34C45D00CD18F4 /* NSURLRequest+cURL.swift in Sources */,
+				E02FB1B31D34CB8900CD18F4 /* LoginViewController.swift in Sources */,
+				E02FB1621D3391DA00CD18F4 /* AppDelegate.swift in Sources */,
+				E02FB1A31D34C32000CD18F4 /* Result.swift in Sources */,
+				E02FB1A01D34C2FD00CD18F4 /* HTTPClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E02FB1651D3391DA00CD18F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E02FB1661D3391DA00CD18F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E02FB16A1D3391DA00CD18F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E02FB16B1D3391DA00CD18F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E02FB16E1D3391DA00CD18F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E02FB16F1D3391DA00CD18F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E02FB1711D3391DA00CD18F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B21DD5EA56CC8B826DA2CF00 /* Pods-PomeloDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PomeloDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.little2s.PomeloDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E02FB1721D3391DA00CD18F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CC396C95D70ABAE98ACAFC2 /* Pods-PomeloDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PomeloDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.little2s.PomeloDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E02FB1591D3391DA00CD18F4 /* Build configuration list for PBXProject "PomeloDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E02FB16E1D3391DA00CD18F4 /* Debug */,
+				E02FB16F1D3391DA00CD18F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E02FB1701D3391DA00CD18F4 /* Build configuration list for PBXNativeTarget "PomeloDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E02FB1711D3391DA00CD18F4 /* Debug */,
+				E02FB1721D3391DA00CD18F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E02FB1561D3391DA00CD18F4 /* Project object */;
+}
